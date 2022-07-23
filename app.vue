@@ -31,6 +31,11 @@ const props = defineProps({
 });
 useHead({
   title: `${props.title}`,
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    { name: 'description', content: 'Mari galang dana rumah untuk Dimas dan Diva.' }
+  ],
   script: [],
   style: [
     {
@@ -91,7 +96,7 @@ useHead({
       </div>
       <div class="col-span-3 rounded p-4 flex flex-col gradient-border">
         <div class="flex justify-between items-center mb-4">
-          <h4 class="font-medium text-2xl">Rumah untuk Dimas dan Diva</h4>
+          <h4 class="font-bold text-2xl">Rumah untuk Dimas dan Diva</h4>
           <svg
             width="40"
             height="40"
