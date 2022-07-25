@@ -11,7 +11,7 @@ const props = defineProps({
   },
   title: {
     type: String,
-    default: "Rumah Untuk Dimas Dan Diva",
+    default: "Rumah untuk Dimas dan Diva",
   },
   readDocs: {
     type: String,
